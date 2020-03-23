@@ -3,6 +3,9 @@ import { render } from 'react-dom';
 import ReactDOM from 'react-dom'
 import Hello from './Hello';
 import './style.css';
+import download from './download.png'; // Tell webpack this JS file uses this image
+
+
 
 class App extends React.Component {
 
@@ -53,7 +56,7 @@ fetch("https://postman-echo.com/post", requestOptions)
           <div id="page">
     <div id="menuleftcontent">
         <ul id="menu">
-            <li> <a href="showfirstcontent"></a>first</li>
+            <img src={download} alt="download" />
             <li><a href="showsecondcontent">second</a>
             </li>
         </ul>
