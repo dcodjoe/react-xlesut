@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import ReactDOM from 'react-dom'
 import Hello from './Hello';
 import './style.css';
-import download from './download.png'; // Tell webpack this JS file uses this image
+import download from '/download.png'; // Tell webpack this JS file uses this image
 
 
 
